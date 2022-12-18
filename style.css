@@ -41,9 +41,22 @@ h2{
     padding-top: 20px;
     color: white;
 }
+.container4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+   
+    margin: auto;
+}
 .span1{
     font-size: 18px;
     font-weight: 700;
+}
+img{
+    width: 400px;
+    object-fit: contain;
 }
 .span2{
     font-size: 18px;
@@ -53,6 +66,7 @@ h2{
 .span3{
     font-weight: 700;
 }
+
 @media screen and (max-width:390px){
     .container{
         height: 40vh;
@@ -64,6 +78,9 @@ h2{
         height: 40vh;
     }
     .container3{
+        height: 40vh;
+    }
+    .container4{
         height: 40vh;
     }
 }
